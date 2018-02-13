@@ -24,7 +24,7 @@ session.add(User1)
 session.commit()
 
 # Whiskey data
-whiskey1 = WhiskeyDB(WhiskeyName="Makers Mark",
+whiskey1 = WhiskeyDB(whiskeyName="Makers Mark",
                      avgPrice="$37.99",
                      description="Maker's Mark is a small-batch bourbon\
                      whiskey produced in Loretto, Kentucky, by Beam Suntory.\
@@ -37,7 +37,7 @@ whiskey1 = WhiskeyDB(WhiskeyName="Makers Mark",
 session.add(whiskey1)
 session.commit()
 
-whiskey2 = WhiskeyDB(WhiskeyName="Woodford Reserve",
+whiskey2 = WhiskeyDB(whiskeyName="Woodford Reserve",
                      avgPrice="$44.99",
                      description="Woodford Reserve is a brand of premium small\
                      batch Kentucky straight bourbon whiskey produced in\
@@ -51,7 +51,7 @@ whiskey2 = WhiskeyDB(WhiskeyName="Woodford Reserve",
 session.add(whiskey2)
 session.commit()
 
-whiskey3 = WhiskeyDB(WhiskeyName="Blanton's",
+whiskey3 = WhiskeyDB(whiskeyName="Blanton's",
                      avgPrice="$59.99",
                      description="Blanton's is a brand of bourbon whiskey\
                      produced and marketed by the Sazerac Company. It is\
@@ -62,7 +62,7 @@ whiskey3 = WhiskeyDB(WhiskeyName="Blanton's",
 session.add(whiskey3)
 session.commit()
 
-whiskey4 = WhiskeyDB(WhiskeyName="Jameson",
+whiskey4 = WhiskeyDB(whiskeyName="Jameson",
                      avgPrice="$32.99",
                      description="Jameson is a blended Irish whiskey produced\
                      by the Irish Distillers subsidiary of Pernod Ricard.",
@@ -71,7 +71,7 @@ whiskey4 = WhiskeyDB(WhiskeyName="Jameson",
 session.add(whiskey4)
 session.commit()
 
-whiskey5 = WhiskeyDB(WhiskeyName="Tullamore Dew",
+whiskey5 = WhiskeyDB(whiskeyName="Tullamore Dew",
                      avgPrice="$39.99",
                      description="Tullamore Dew is a brand of Irish whiskey\
                      produced by William Grant & Sons.[1] It is the second\
@@ -82,7 +82,7 @@ whiskey5 = WhiskeyDB(WhiskeyName="Tullamore Dew",
 session.add(whiskey5)
 session.commit()
 
-whiskey6 = WhiskeyDB(WhiskeyName="Teeling",
+whiskey6 = WhiskeyDB(whiskeyName="Teeling",
                      avgPrice="$39.99",
                      description="Teeling Distillery is an Irish whiskey\
                      distillery established in Dublin in 2015. It is the first\
@@ -92,7 +92,7 @@ whiskey6 = WhiskeyDB(WhiskeyName="Teeling",
 session.add(whiskey6)
 session.commit()
 
-whiskey7 = WhiskeyDB(WhiskeyName="Johnie Walker Black Label",
+whiskey7 = WhiskeyDB(whiskeyName="Johnie Walker Black Label",
                      avgPrice="$33.99",
                      description="Johnnie Walker is a brand of Scotch whisky\
                      now owned by Diageo that originated in the Scottish town\
@@ -103,7 +103,7 @@ whiskey7 = WhiskeyDB(WhiskeyName="Johnie Walker Black Label",
 session.add(whiskey7)
 session.commit()
 
-whiskey8 = WhiskeyDB(WhiskeyName="The Macallan",
+whiskey8 = WhiskeyDB(whiskeyName="The Macallan",
                      avgPrice="$54.99",
                      description="The Macallan distillery is a single malt\
                      Scotch whisky distillery in Craigellachie, Moray. The\
@@ -115,7 +115,7 @@ whiskey8 = WhiskeyDB(WhiskeyName="The Macallan",
 session.add(whiskey8)
 session.commit()
 
-whiskey9 = WhiskeyDB(WhiskeyName="Laphroaig",
+whiskey9 = WhiskeyDB(whiskeyName="Laphroaig",
                      avgPrice="$46.99",
                      description="Laphroaig distillery is an Islay single malt\
                      Scotch whisky distillery. It is named for the area of\
